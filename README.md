@@ -1,4 +1,4 @@
-pyrot (arrrrrrr)
+pyrot
 =====
 
 ROT translation in python
