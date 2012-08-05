@@ -1,0 +1,8 @@
+import string
+
+def rot(n, s):
+    """Translates string s using ROT-n"""
+    lowers = string.lowercase
+    rotlowers = string.maketrans(lowers, lowers[n:] + lowers[:n])
+    return string.translate(string.lower(s), rotlowers)
+
